@@ -1,9 +1,4 @@
 
-
-@media(min-width: 600px){
-    
-}
-
 @media(max-width: 1200px){
     .about{
         grid-template-areas: 'main main'
