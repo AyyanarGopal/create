@@ -69,6 +69,14 @@
 
 @media(max-width: 600px){
 
+    .showcase .text {
+        position: absolute;
+        left: 0%;
+        top: 17%;
+        line-height: 4em;
+        transform: translate(0px, 0px);
+}
+
     .team-gallery .column
     {
         flex-basis: 100%;
@@ -102,6 +110,14 @@
     }
 }
 
+@media(max-width: 200px){
+    .showcase .text{
+        left: 0%;
+        top: 20%;
+        line-height: 3.9em;
+        font-size: 11px;
+    }
+}
 
 
 
